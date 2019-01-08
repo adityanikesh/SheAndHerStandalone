@@ -9,14 +9,12 @@ import org.springframework.security.oauth2.config.annotation.web.configuration.R
 import org.springframework.security.oauth2.config.annotation.web.configurers.ResourceServerSecurityConfigurer;
 import org.springframework.security.oauth2.provider.token.TokenStore;
 import org.springframework.security.web.csrf.CookieCsrfTokenRepository;
-import org.springframework.web.bind.annotation.CrossOrigin;
 
 @Configuration
 @EnableResourceServer
-@CrossOrigin(origins = "http://localhost:9000")
 public class ResourceServerConfig extends ResourceServerConfigurerAdapter {
 	
-	private static final String RESOURCE_ID = "resource-server-rest-api";
+	private static final String RESOURCE_ID = "appmanager";
     
     @Autowired
     TokenStore tokenStore;
@@ -25,7 +23,9 @@ public class ResourceServerConfig extends ResourceServerConfigurerAdapter {
 	public CookieCsrfTokenRepository csrfTokenRepository() {
 		CookieCsrfTokenRepository csrfTokenRepository = new CookieCsrfTokenRepository();
 		csrfTokenRepository.setCookieHttpOnly(false);
-		csrfTokenRepository.setCookieName("avocado-XSRF-token");
+		csrfTokenRepository.setCookieName("Avocado-XSRF-Token");
+		csrfTokenRepository.setHeaderName("Avocado-XSRF-Token");
+		csrfTokenRepository.setCookiePath("/");
 		return csrfTokenRepository;
 	}
     
@@ -40,13 +40,14 @@ public class ResourceServerConfig extends ResourceServerConfigurerAdapter {
 	public void configure(HttpSecurity http) throws Exception {
 		
 		http
-		.csrf().csrfTokenRepository(csrfTokenRepository())
-		.and()
+		.csrf().disable()//csrfTokenRepository(csrfTokenRepository())
+//		.and()
 		.anonymous()
 		.and()
 		.requestMatchers()
-		.antMatchers("/api/**").and()
+		.antMatchers("/api/**", "/adpl/**")
+		.and()
         .authorizeRequests()
-        .anyRequest().authenticated();        
+        .anyRequest().authenticated();       
 	}
 }

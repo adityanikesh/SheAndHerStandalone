@@ -4,8 +4,6 @@ import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.access.prepost.PreAuthorize;
-import org.springframework.security.core.Authentication;
-import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -16,6 +14,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.cvs.avocado.models.Role;
 import com.cvs.avocado.models.User;
+import com.cvs.avocado.security.AuthenticationFacade;
 import com.cvs.avocado.services.RoleService;
 import com.cvs.avocado.services.UserService;
 
@@ -30,18 +29,19 @@ public class UserController {
 	RoleService roleService;
 	
 	@Autowired
+	AuthenticationFacade authenticationFacade;
+	
+	@Autowired
 	PasswordEncoder passwordEncoder;
 	
 	@GetMapping("/getAllRoles")
 	@PreAuthorize("permitAll()")
 	public List<Role> getAllRoles() {
-		Authentication authentication = SecurityContextHolder.getContext().getAuthentication();
-		System.out.println(authentication.getName());
 		return this.roleService.findAllRoles();
 	}
 	
-	@PreAuthorize("hasAuthority('READ')")
 	@GetMapping("/getAllUsers")
+	@PreAuthorize("hasAuthority('READ')")
 	public List<User> getAllUsers() {
 		return this.userService.findAllUsers();
 	}
@@ -62,5 +62,10 @@ public class UserController {
 	@DeleteMapping("/deleteUser")
 	public void deleteUser() {
 		
+	}
+	
+	@PostMapping("/logout")
+	public void logout() {
+		this.userService.logout();
 	}
 }
