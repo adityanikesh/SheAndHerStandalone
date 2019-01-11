@@ -11,7 +11,7 @@ public class AppInfo {
 	private int protocol;
 	private int pid;
 	private String managementIP;
-	private String UUID;
+	private String uuid;
 	private String socketUUID;
 	
 	public int getAppId() {
@@ -68,11 +68,11 @@ public class AppInfo {
 	public void setManagementIP(String managementIP) {
 		this.managementIP = managementIP;
 	}
-	public String getUUID() {
-		return UUID;
+	public String getUuid() {
+		return uuid;
 	}
-	public void setUUID(String UUID) {
-		this.UUID = UUID;
+	public void setUuid(String uuid) {
+		this.uuid = uuid;
 	}
 	public String getSocketUUID() {
 		return socketUUID;
