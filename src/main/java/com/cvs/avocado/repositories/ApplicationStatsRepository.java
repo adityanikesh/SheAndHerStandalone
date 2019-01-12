@@ -85,7 +85,7 @@ public class ApplicationStatsRepository {
 		appInfoMap.put("protocol_in", appInfo.getServerIP());
 		appInfoMap.put("pid_in", appInfo.getPid());
 		appInfoMap.put("management_IP_in", appInfo.getManagementIP());
-		appInfoMap.put("uuid_in", appInfo.getUUID());
+		appInfoMap.put("uuid_in", appInfo.getUuid());
 		appInfoMap.put("socket_uuid_in", appInfo.getSocketUUID());
 
 		return appInfoMap;
