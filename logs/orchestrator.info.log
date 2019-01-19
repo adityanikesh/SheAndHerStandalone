@@ -1650,3 +1650,122 @@
 [INFO ] 2019-01-07 11:42:44 [restartedMain] SheAndHerApplication - Starting SheAndHerApplication on aditya with PID 5056 (/home/aditya/Avocado/SheAndHerStandalone/target/classes started by aditya in /home/aditya/Avocado/SheAndHerStandalone)
 [INFO ] 2019-01-07 11:42:44 [restartedMain] SheAndHerApplication - No active profile set, falling back to default profiles: default
 [INFO ] 2019-01-07 11:43:10 [restartedMain] SheAndHerApplication - Started SheAndHerApplication in 28.511 seconds (JVM running for 32.632)
+[INFO ] 2019-01-12 20:16:47 [restartedMain] SheAndHerApplication - Starting SheAndHerApplication on Aditya with PID 16280 (started by Aditya in C:\Users\Aditya\Documents\STS Workspace\SheAndHerStandalone)
+[INFO ] 2019-01-12 20:16:47 [restartedMain] SheAndHerApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2019-01-12 20:38:01 [restartedMain] SheAndHerApplication - Starting SheAndHerApplication on Aditya with PID 13916 (started by Aditya in C:\Users\Aditya\Documents\STS Workspace\SheAndHerStandalone)
+[INFO ] 2019-01-12 20:38:01 [restartedMain] SheAndHerApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2019-01-12 20:38:27 [restartedMain] SheAndHerApplication - Started SheAndHerApplication in 27.455 seconds (JVM running for 30.934)
+[INFO ] 2019-01-12 22:06:24 [restartedMain] SheAndHerApplication - Starting SheAndHerApplication on Aditya with PID 13916 (started by Aditya in C:\Users\Aditya\Documents\STS Workspace\SheAndHerStandalone)
+[INFO ] 2019-01-12 22:06:24 [restartedMain] SheAndHerApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2019-01-12 22:06:35 [restartedMain] SheAndHerApplication - Started SheAndHerApplication in 11.273 seconds (JVM running for 5318.936)
+[INFO ] 2019-01-12 22:07:20 [restartedMain] SheAndHerApplication - Starting SheAndHerApplication on Aditya with PID 13916 (started by Aditya in C:\Users\Aditya\Documents\STS Workspace\SheAndHerStandalone)
+[INFO ] 2019-01-12 22:07:20 [restartedMain] SheAndHerApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2019-01-12 22:07:34 [restartedMain] SheAndHerApplication - Starting SheAndHerApplication on Aditya with PID 13916 (started by Aditya in C:\Users\Aditya\Documents\STS Workspace\SheAndHerStandalone)
+[INFO ] 2019-01-12 22:07:34 [restartedMain] SheAndHerApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2019-01-12 22:07:44 [restartedMain] SheAndHerApplication - Started SheAndHerApplication in 10.816 seconds (JVM running for 5388.088)
+[INFO ] 2019-01-12 22:15:21 [restartedMain] SheAndHerApplication - Starting SheAndHerApplication on Aditya with PID 13916 (started by Aditya in C:\Users\Aditya\Documents\STS Workspace\SheAndHerStandalone)
+[INFO ] 2019-01-12 22:15:21 [restartedMain] SheAndHerApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2019-01-12 22:15:32 [restartedMain] SheAndHerApplication - Started SheAndHerApplication in 10.893 seconds (JVM running for 5855.33)
+[INFO ] 2019-01-12 22:16:01 [restartedMain] SheAndHerApplication - Starting SheAndHerApplication on Aditya with PID 13916 (started by Aditya in C:\Users\Aditya\Documents\STS Workspace\SheAndHerStandalone)
+[INFO ] 2019-01-12 22:16:01 [restartedMain] SheAndHerApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2019-01-12 22:16:11 [restartedMain] SheAndHerApplication - Started SheAndHerApplication in 10.409 seconds (JVM running for 5894.981)
+[INFO ] 2019-01-12 23:17:51 [restartedMain] SheAndHerApplication - Starting SheAndHerApplication on Aditya with PID 6304 (started by Aditya in C:\Users\Aditya\Documents\STS Workspace\SheAndHerStandalone)
+[INFO ] 2019-01-12 23:17:51 [restartedMain] SheAndHerApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2019-01-12 23:18:23 [restartedMain] SheAndHerApplication - Started SheAndHerApplication in 34.012 seconds (JVM running for 41.568)
+[INFO ] 2019-01-12 23:20:04 [https-jsse-nio-0.0.0.0-8443-exec-3] ApplicationStatsController - Following appinfo inserted successfully in db: com.cvs.avocado.models.AppInfo@17211be4
+[INFO ] 2019-01-12 23:28:04 [https-jsse-nio-0.0.0.0-8443-exec-2] ApplicationStatsController - Following appinfo inserted successfully in db: com.cvs.avocado.models.AppInfo@5ba70ecd
+[INFO ] 2019-01-12 23:30:24 [https-jsse-nio-0.0.0.0-8443-exec-10] ApplicationStatsController - Following appinfo inserted successfully in db: com.cvs.avocado.models.AppInfo@617a44b2
+[INFO ] 2019-01-12 23:30:24 [https-jsse-nio-0.0.0.0-8443-exec-7] ApplicationStatsController - Following appinfo inserted successfully in db: com.cvs.avocado.models.AppInfo@3438e26d
+[INFO ] 2019-01-12 23:30:24 [https-jsse-nio-0.0.0.0-8443-exec-5] ApplicationStatsController - Following appinfo inserted successfully in db: com.cvs.avocado.models.AppInfo@28a5de93
+[INFO ] 2019-01-12 23:30:24 [https-jsse-nio-0.0.0.0-8443-exec-3] ApplicationStatsController - Following appinfo inserted successfully in db: com.cvs.avocado.models.AppInfo@7653834a
+[INFO ] 2019-01-12 23:30:25 [https-jsse-nio-0.0.0.0-8443-exec-3] ApplicationStatsController - Following appinfo inserted successfully in db: com.cvs.avocado.models.AppInfo@3ccea75f
+[INFO ] 2019-01-12 23:30:25 [https-jsse-nio-0.0.0.0-8443-exec-1] ApplicationStatsController - Following appinfo inserted successfully in db: com.cvs.avocado.models.AppInfo@3113f376
+[INFO ] 2019-01-12 23:30:25 [https-jsse-nio-0.0.0.0-8443-exec-9] ApplicationStatsController - Following appinfo inserted successfully in db: com.cvs.avocado.models.AppInfo@68cdd5dc
+[INFO ] 2019-01-12 23:30:26 [https-jsse-nio-0.0.0.0-8443-exec-5] ApplicationStatsController - Following appinfo inserted successfully in db: com.cvs.avocado.models.AppInfo@4aeda83e
+[INFO ] 2019-01-12 23:30:26 [https-jsse-nio-0.0.0.0-8443-exec-3] ApplicationStatsController - Following appinfo inserted successfully in db: com.cvs.avocado.models.AppInfo@33e4dc8e
+[INFO ] 2019-01-12 23:30:26 [https-jsse-nio-0.0.0.0-8443-exec-10] ApplicationStatsController - Following appinfo inserted successfully in db: com.cvs.avocado.models.AppInfo@47fbadc7
+[INFO ] 2019-01-12 23:30:27 [https-jsse-nio-0.0.0.0-8443-exec-9] ApplicationStatsController - Following appinfo inserted successfully in db: com.cvs.avocado.models.AppInfo@4da9ede6
+[INFO ] 2019-01-12 23:30:27 [https-jsse-nio-0.0.0.0-8443-exec-8] ApplicationStatsController - Following appinfo inserted successfully in db: com.cvs.avocado.models.AppInfo@39176853
+[INFO ] 2019-01-12 23:30:28 [https-jsse-nio-0.0.0.0-8443-exec-5] ApplicationStatsController - Following appinfo inserted successfully in db: com.cvs.avocado.models.AppInfo@2829633
+[INFO ] 2019-01-12 23:30:28 [https-jsse-nio-0.0.0.0-8443-exec-4] ApplicationStatsController - Following appinfo inserted successfully in db: com.cvs.avocado.models.AppInfo@4b8bada6
+[INFO ] 2019-01-12 23:37:14 [https-jsse-nio-0.0.0.0-8443-exec-2] ApplicationStatsController - Following appinfo inserted successfully in db: com.cvs.avocado.models.AppInfo@42441bce
+[INFO ] 2019-01-12 23:37:29 [https-jsse-nio-0.0.0.0-8443-exec-7] ApplicationStatsController - Following appinfo inserted successfully in db: com.cvs.avocado.models.AppInfo@256e87de
+[INFO ] 2019-01-12 23:37:45 [https-jsse-nio-0.0.0.0-8443-exec-8] ApplicationStatsController - Following appinfo inserted successfully in db: com.cvs.avocado.models.AppInfo@419f459a
+[INFO ] 2019-01-12 23:38:00 [https-jsse-nio-0.0.0.0-8443-exec-5] ApplicationStatsController - Following appinfo inserted successfully in db: com.cvs.avocado.models.AppInfo@55bfa533
+[INFO ] 2019-01-12 23:38:15 [https-jsse-nio-0.0.0.0-8443-exec-2] ApplicationStatsController - Following appinfo inserted successfully in db: com.cvs.avocado.models.AppInfo@8bd73e8
+[INFO ] 2019-01-12 23:38:31 [https-jsse-nio-0.0.0.0-8443-exec-7] ApplicationStatsController - Following appinfo inserted successfully in db: com.cvs.avocado.models.AppInfo@3c04ec92
+[INFO ] 2019-01-12 23:38:46 [https-jsse-nio-0.0.0.0-8443-exec-8] ApplicationStatsController - Following appinfo inserted successfully in db: com.cvs.avocado.models.AppInfo@6446bd9f
+[INFO ] 2019-01-12 23:39:02 [https-jsse-nio-0.0.0.0-8443-exec-4] ApplicationStatsController - Following appinfo inserted successfully in db: com.cvs.avocado.models.AppInfo@5d0b7f95
+[INFO ] 2019-01-12 23:39:18 [https-jsse-nio-0.0.0.0-8443-exec-1] ApplicationStatsController - Following appinfo inserted successfully in db: com.cvs.avocado.models.AppInfo@31c796b5
+[INFO ] 2019-01-12 23:39:33 [https-jsse-nio-0.0.0.0-8443-exec-7] ApplicationStatsController - Following appinfo inserted successfully in db: com.cvs.avocado.models.AppInfo@4a2d5c54
+[INFO ] 2019-01-12 23:39:49 [https-jsse-nio-0.0.0.0-8443-exec-6] ApplicationStatsController - Following appinfo inserted successfully in db: com.cvs.avocado.models.AppInfo@5790b5bb
+[INFO ] 2019-01-12 23:40:04 [https-jsse-nio-0.0.0.0-8443-exec-4] ApplicationStatsController - Following appinfo inserted successfully in db: com.cvs.avocado.models.AppInfo@2ebdbe28
+[INFO ] 2019-01-12 23:40:20 [https-jsse-nio-0.0.0.0-8443-exec-2] ApplicationStatsController - Following appinfo inserted successfully in db: com.cvs.avocado.models.AppInfo@42051276
+[INFO ] 2019-01-12 23:40:35 [https-jsse-nio-0.0.0.0-8443-exec-1] ApplicationStatsController - Following appinfo inserted successfully in db: com.cvs.avocado.models.AppInfo@7e7b925c
+[INFO ] 2019-01-12 23:40:51 [https-jsse-nio-0.0.0.0-8443-exec-7] ApplicationStatsController - Following appinfo inserted successfully in db: com.cvs.avocado.models.AppInfo@1f8d8c62
+[INFO ] 2019-01-12 23:41:06 [https-jsse-nio-0.0.0.0-8443-exec-8] ApplicationStatsController - Following appinfo inserted successfully in db: com.cvs.avocado.models.AppInfo@3b32b9d8
+[INFO ] 2019-01-12 23:41:22 [https-jsse-nio-0.0.0.0-8443-exec-5] ApplicationStatsController - Following appinfo inserted successfully in db: com.cvs.avocado.models.AppInfo@28dc7e59
+[INFO ] 2019-01-12 23:41:37 [https-jsse-nio-0.0.0.0-8443-exec-2] ApplicationStatsController - Following appinfo inserted successfully in db: com.cvs.avocado.models.AppInfo@159c5630
+[INFO ] 2019-01-12 23:41:53 [https-jsse-nio-0.0.0.0-8443-exec-7] ApplicationStatsController - Following appinfo inserted successfully in db: com.cvs.avocado.models.AppInfo@1f891b7f
+[INFO ] 2019-01-12 23:42:08 [https-jsse-nio-0.0.0.0-8443-exec-9] ApplicationStatsController - Following appinfo inserted successfully in db: com.cvs.avocado.models.AppInfo@3b765842
+[INFO ] 2019-01-12 23:42:24 [https-jsse-nio-0.0.0.0-8443-exec-4] ApplicationStatsController - Following appinfo inserted successfully in db: com.cvs.avocado.models.AppInfo@4247a151
+[INFO ] 2019-01-12 23:42:39 [https-jsse-nio-0.0.0.0-8443-exec-1] ApplicationStatsController - Following appinfo inserted successfully in db: com.cvs.avocado.models.AppInfo@16388d8e
+[INFO ] 2019-01-12 23:42:55 [https-jsse-nio-0.0.0.0-8443-exec-7] ApplicationStatsController - Following appinfo inserted successfully in db: com.cvs.avocado.models.AppInfo@58104ad5
+[INFO ] 2019-01-12 23:43:10 [https-jsse-nio-0.0.0.0-8443-exec-6] ApplicationStatsController - Following appinfo inserted successfully in db: com.cvs.avocado.models.AppInfo@71bfa2fb
+[INFO ] 2019-01-12 23:43:25 [https-jsse-nio-0.0.0.0-8443-exec-4] ApplicationStatsController - Following appinfo inserted successfully in db: com.cvs.avocado.models.AppInfo@2bd58d9
+[INFO ] 2019-01-12 23:43:41 [https-jsse-nio-0.0.0.0-8443-exec-2] ApplicationStatsController - Following appinfo inserted successfully in db: com.cvs.avocado.models.AppInfo@5f094d81
+[INFO ] 2019-01-12 23:43:56 [https-jsse-nio-0.0.0.0-8443-exec-10] ApplicationStatsController - Following appinfo inserted successfully in db: com.cvs.avocado.models.AppInfo@3c02db8b
+[INFO ] 2019-01-12 23:44:12 [https-jsse-nio-0.0.0.0-8443-exec-8] ApplicationStatsController - Following appinfo inserted successfully in db: com.cvs.avocado.models.AppInfo@6f0c5706
+[INFO ] 2019-01-12 23:44:27 [https-jsse-nio-0.0.0.0-8443-exec-4] ApplicationStatsController - Following appinfo inserted successfully in db: com.cvs.avocado.models.AppInfo@67a9302e
+[INFO ] 2019-01-12 23:44:43 [https-jsse-nio-0.0.0.0-8443-exec-2] ApplicationStatsController - Following appinfo inserted successfully in db: com.cvs.avocado.models.AppInfo@17bd92af
+[INFO ] 2019-01-12 23:44:58 [https-jsse-nio-0.0.0.0-8443-exec-10] ApplicationStatsController - Following appinfo inserted successfully in db: com.cvs.avocado.models.AppInfo@1f692a42
+[INFO ] 2019-01-12 23:45:13 [https-jsse-nio-0.0.0.0-8443-exec-6] ApplicationStatsController - Following appinfo inserted successfully in db: com.cvs.avocado.models.AppInfo@55a85bc7
+[INFO ] 2019-01-12 23:45:29 [https-jsse-nio-0.0.0.0-8443-exec-8] ApplicationStatsController - Following appinfo inserted successfully in db: com.cvs.avocado.models.AppInfo@3584b5de
+[INFO ] 2019-01-12 23:45:44 [https-jsse-nio-0.0.0.0-8443-exec-5] ApplicationStatsController - Following appinfo inserted successfully in db: com.cvs.avocado.models.AppInfo@5ba06037
+[INFO ] 2019-01-12 23:46:00 [https-jsse-nio-0.0.0.0-8443-exec-2] ApplicationStatsController - Following appinfo inserted successfully in db: com.cvs.avocado.models.AppInfo@14487261
+[INFO ] 2019-01-12 23:46:15 [https-jsse-nio-0.0.0.0-8443-exec-7] ApplicationStatsController - Following appinfo inserted successfully in db: com.cvs.avocado.models.AppInfo@6e77c6ee
+[INFO ] 2019-01-12 23:46:31 [https-jsse-nio-0.0.0.0-8443-exec-8] ApplicationStatsController - Following appinfo inserted successfully in db: com.cvs.avocado.models.AppInfo@7f7e38f8
+[INFO ] 2019-01-12 23:46:46 [https-jsse-nio-0.0.0.0-8443-exec-4] ApplicationStatsController - Following appinfo inserted successfully in db: com.cvs.avocado.models.AppInfo@3e9bf6e3
+[INFO ] 2019-01-12 23:47:02 [https-jsse-nio-0.0.0.0-8443-exec-2] ApplicationStatsController - Following appinfo inserted successfully in db: com.cvs.avocado.models.AppInfo@38306e42
+[INFO ] 2019-01-12 23:47:17 [https-jsse-nio-0.0.0.0-8443-exec-10] ApplicationStatsController - Following appinfo inserted successfully in db: com.cvs.avocado.models.AppInfo@1d309e4e
+[INFO ] 2019-01-12 23:47:33 [https-jsse-nio-0.0.0.0-8443-exec-7] ApplicationStatsController - Following appinfo inserted successfully in db: com.cvs.avocado.models.AppInfo@71a371e6
+[INFO ] 2019-01-12 23:47:48 [https-jsse-nio-0.0.0.0-8443-exec-9] ApplicationStatsController - Following appinfo inserted successfully in db: com.cvs.avocado.models.AppInfo@1c9b3ace
+[INFO ] 2019-01-12 23:48:03 [https-jsse-nio-0.0.0.0-8443-exec-3] ApplicationStatsController - Following appinfo inserted successfully in db: com.cvs.avocado.models.AppInfo@1c6b9413
+[INFO ] 2019-01-12 23:48:19 [https-jsse-nio-0.0.0.0-8443-exec-2] ApplicationStatsController - Following appinfo inserted successfully in db: com.cvs.avocado.models.AppInfo@29d01a3b
+[INFO ] 2019-01-12 23:48:34 [https-jsse-nio-0.0.0.0-8443-exec-7] ApplicationStatsController - Following appinfo inserted successfully in db: com.cvs.avocado.models.AppInfo@2759822a
+[INFO ] 2019-01-12 23:48:50 [https-jsse-nio-0.0.0.0-8443-exec-9] ApplicationStatsController - Following appinfo inserted successfully in db: com.cvs.avocado.models.AppInfo@f842485
+[INFO ] 2019-01-12 23:49:05 [https-jsse-nio-0.0.0.0-8443-exec-3] ApplicationStatsController - Following appinfo inserted successfully in db: com.cvs.avocado.models.AppInfo@4d4b488a
+[INFO ] 2019-01-12 23:49:21 [https-jsse-nio-0.0.0.0-8443-exec-2] ApplicationStatsController - Following appinfo inserted successfully in db: com.cvs.avocado.models.AppInfo@77e58bdc
+[INFO ] 2019-01-12 23:49:36 [https-jsse-nio-0.0.0.0-8443-exec-10] ApplicationStatsController - Following appinfo inserted successfully in db: com.cvs.avocado.models.AppInfo@79902816
+[INFO ] 2019-01-12 23:49:51 [https-jsse-nio-0.0.0.0-8443-exec-8] ApplicationStatsController - Following appinfo inserted successfully in db: com.cvs.avocado.models.AppInfo@5cfa6d0a
+[INFO ] 2019-01-12 23:50:07 [https-jsse-nio-0.0.0.0-8443-exec-9] ApplicationStatsController - Following appinfo inserted successfully in db: com.cvs.avocado.models.AppInfo@f2900a9
+[INFO ] 2019-01-12 23:50:22 [https-jsse-nio-0.0.0.0-8443-exec-5] ApplicationStatsController - Following appinfo inserted successfully in db: com.cvs.avocado.models.AppInfo@6d88d53f
+[INFO ] 2019-01-12 23:50:38 [https-jsse-nio-0.0.0.0-8443-exec-2] ApplicationStatsController - Following appinfo inserted successfully in db: com.cvs.avocado.models.AppInfo@5bce7894
+[INFO ] 2019-01-12 23:50:53 [https-jsse-nio-0.0.0.0-8443-exec-10] ApplicationStatsController - Following appinfo inserted successfully in db: com.cvs.avocado.models.AppInfo@843a1b2
+[INFO ] 2019-01-12 23:51:09 [https-jsse-nio-0.0.0.0-8443-exec-6] ApplicationStatsController - Following appinfo inserted successfully in db: com.cvs.avocado.models.AppInfo@3b401423
+[INFO ] 2019-01-12 23:51:24 [https-jsse-nio-0.0.0.0-8443-exec-4] ApplicationStatsController - Following appinfo inserted successfully in db: com.cvs.avocado.models.AppInfo@3e133f49
+[INFO ] 2019-01-12 23:51:40 [https-jsse-nio-0.0.0.0-8443-exec-2] ApplicationStatsController - Following appinfo inserted successfully in db: com.cvs.avocado.models.AppInfo@5185304c
+[INFO ] 2019-01-12 23:51:55 [https-jsse-nio-0.0.0.0-8443-exec-1] ApplicationStatsController - Following appinfo inserted successfully in db: com.cvs.avocado.models.AppInfo@b461f93
+[INFO ] 2019-01-12 23:52:11 [https-jsse-nio-0.0.0.0-8443-exec-8] ApplicationStatsController - Following appinfo inserted successfully in db: com.cvs.avocado.models.AppInfo@671cb082
+[INFO ] 2019-01-12 23:52:26 [https-jsse-nio-0.0.0.0-8443-exec-4] ApplicationStatsController - Following appinfo inserted successfully in db: com.cvs.avocado.models.AppInfo@47f12bff
+[INFO ] 2019-01-12 23:52:42 [https-jsse-nio-0.0.0.0-8443-exec-5] ApplicationStatsController - Following appinfo inserted successfully in db: com.cvs.avocado.models.AppInfo@66ed02e4
+[INFO ] 2019-01-12 23:52:57 [https-jsse-nio-0.0.0.0-8443-exec-10] ApplicationStatsController - Following appinfo inserted successfully in db: com.cvs.avocado.models.AppInfo@6ba3135
+[INFO ] 2019-01-12 23:53:13 [https-jsse-nio-0.0.0.0-8443-exec-8] ApplicationStatsController - Following appinfo inserted successfully in db: com.cvs.avocado.models.AppInfo@41926b7c
+[INFO ] 2019-01-12 23:53:28 [https-jsse-nio-0.0.0.0-8443-exec-9] ApplicationStatsController - Following appinfo inserted successfully in db: com.cvs.avocado.models.AppInfo@5bc897f
+[INFO ] 2019-01-12 23:53:44 [https-jsse-nio-0.0.0.0-8443-exec-2] ApplicationStatsController - Following appinfo inserted successfully in db: com.cvs.avocado.models.AppInfo@691841de
+[INFO ] 2019-01-12 23:53:59 [https-jsse-nio-0.0.0.0-8443-exec-1] ApplicationStatsController - Following appinfo inserted successfully in db: com.cvs.avocado.models.AppInfo@47414654
+[INFO ] 2019-01-12 23:54:14 [https-jsse-nio-0.0.0.0-8443-exec-10] ApplicationStatsController - Following appinfo inserted successfully in db: com.cvs.avocado.models.AppInfo@63c69de7
+[INFO ] 2019-01-12 23:54:30 [https-jsse-nio-0.0.0.0-8443-exec-8] ApplicationStatsController - Following appinfo inserted successfully in db: com.cvs.avocado.models.AppInfo@45bb383b
+[INFO ] 2019-01-12 23:54:45 [https-jsse-nio-0.0.0.0-8443-exec-6] ApplicationStatsController - Following appinfo inserted successfully in db: com.cvs.avocado.models.AppInfo@515e57df
+[INFO ] 2019-01-12 23:55:01 [https-jsse-nio-0.0.0.0-8443-exec-3] ApplicationStatsController - Following appinfo inserted successfully in db: com.cvs.avocado.models.AppInfo@503287e5
+[INFO ] 2019-01-12 23:55:16 [https-jsse-nio-0.0.0.0-8443-exec-5] ApplicationStatsController - Following appinfo inserted successfully in db: com.cvs.avocado.models.AppInfo@fe50569
+[INFO ] 2019-01-12 23:55:32 [https-jsse-nio-0.0.0.0-8443-exec-1] ApplicationStatsController - Following appinfo inserted successfully in db: com.cvs.avocado.models.AppInfo@17ca1eb6
+[INFO ] 2019-01-12 23:55:47 [https-jsse-nio-0.0.0.0-8443-exec-8] ApplicationStatsController - Following appinfo inserted successfully in db: com.cvs.avocado.models.AppInfo@2092d0ee
+[INFO ] 2019-01-12 23:56:03 [https-jsse-nio-0.0.0.0-8443-exec-3] ApplicationStatsController - Following appinfo inserted successfully in db: com.cvs.avocado.models.AppInfo@7836d6ff
+[INFO ] 2019-01-12 23:56:18 [https-jsse-nio-0.0.0.0-8443-exec-4] ApplicationStatsController - Following appinfo inserted successfully in db: com.cvs.avocado.models.AppInfo@3158f176
+[INFO ] 2019-01-12 23:56:33 [https-jsse-nio-0.0.0.0-8443-exec-1] ApplicationStatsController - Following appinfo inserted successfully in db: com.cvs.avocado.models.AppInfo@75763ecb
+[INFO ] 2019-01-12 23:56:49 [https-jsse-nio-0.0.0.0-8443-exec-8] ApplicationStatsController - Following appinfo inserted successfully in db: com.cvs.avocado.models.AppInfo@41f2d0e4
+[INFO ] 2019-01-12 23:57:05 [https-jsse-nio-0.0.0.0-8443-exec-3] ApplicationStatsController - Following appinfo inserted successfully in db: com.cvs.avocado.models.AppInfo@245bb18b
+[INFO ] 2019-01-19 18:56:44 [restartedMain] SheAndHerApplication - Starting SheAndHerApplication on Aditya with PID 12356 (started by Aditya in C:\Users\Aditya\Documents\STS Workspace\SheAndHerStandalone)
+[INFO ] 2019-01-19 18:56:44 [restartedMain] SheAndHerApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2019-01-19 18:57:01 [restartedMain] SheAndHerApplication - Started SheAndHerApplication in 17.708 seconds (JVM running for 20.194)

@@ -64,8 +64,8 @@ public class UserController {
 		
 	}
 	
-	@PostMapping("/logout")
-	public void logout() {
-		this.userService.logout();
-	}
+//	@PostMapping("/logout")
+//	public void logout() {
+//		this.userService.logout();
+//	}
 }

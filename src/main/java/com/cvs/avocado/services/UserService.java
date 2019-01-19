@@ -68,10 +68,10 @@ public class UserService implements UserDetailsService {
 		return listAuthority;
 	}
 	
-	public void logout() {
-		OAuth2AccessToken token = this.tokenStore.getAccessToken(authenticationFacade.getOAuth2Authentication());
-		this.tokenStore.removeAccessToken(token);
-		this.tokenStore.removeRefreshToken(token.getRefreshToken());
-	}
+//	public void logout() {
+//		OAuth2AccessToken token = this.tokenStore.getAccessToken(authenticationFacade.getOAuth2Authentication());
+//		this.tokenStore.removeAccessToken(token);
+//		this.tokenStore.removeRefreshToken(token.getRefreshToken());
+//	}
 
 }

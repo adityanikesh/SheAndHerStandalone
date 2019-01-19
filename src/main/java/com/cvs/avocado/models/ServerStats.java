@@ -10,6 +10,7 @@ public class ServerStats {
 	private String serverIP;
 	private int serverPort;
 	private int protocol;
+	private String managementIP;
 	private String UUID;
 	private String socketUUID;
 	private int clientCount;
@@ -68,6 +69,12 @@ public class ServerStats {
 	}
 	public void setProtocol(int protocol) {
 		this.protocol = protocol;
+	}
+	public String getManagementIP() {
+		return managementIP;
+	}
+	public void setManagementIP(String managementIP) {
+		this.managementIP = managementIP;
 	}
 	public String getUUID() {
 		return UUID;

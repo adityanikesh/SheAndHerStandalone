@@ -36,23 +36,23 @@ public class ClientService extends JdbcClientDetailsService {
 
 	@Override
 	@Cacheable(value="clients", key="#clientId")
-	public Client loadClientByClientId(String clientGuid) throws InvalidClientException {
-		String clientId = httpServlet.getRemoteAddress();
+	public Client loadClientByClientId(String clientId) throws InvalidClientException {
 		Client client = this.clientRepository.findClientByClientId(clientId);
-		if(client == null) {	
-			int managementIPPresence = this.managementPoolService.findManagementIP(clientId);
+		if(client == null) {
+			String clientIP = httpServlet.getRemoteAddress();
+			int managementIPPresence = this.managementPoolService.findManagementIP(clientIP);
 			if(managementIPPresence > 0) {
-				int insertNewClient = this.clientRepository.insertClient(new Client(clientId, "appmanager", null, "client_credentials", null, 3, true, 0, 0));
+				int insertNewClient = this.clientRepository.insertClient(new Client(clientIP, "appmanager", null, "client_credentials", null, 3, true, 0, 0));
 				if(insertNewClient > 0){
-					client = this.clientRepository.findClientByClientId(clientId);
+					client = this.clientRepository.findClientByClientId(clientIP);
 				}
 			} else {
-				this.clientRepository.insertClient(new Client(clientId, "appmanager", null, "client_credentials", null, 3, false, 0, 0));
+				this.clientRepository.insertClient(new Client(clientIP, "appmanager", null, "client_credentials", null, 3, false, 0, 0));
 			}
 		} else if(!client.isEnabled()) {
 			client = null;
 		}
-		client.setClientId(clientGuid);
+		client.setClientId(clientId);
 		return client;
 	}
 

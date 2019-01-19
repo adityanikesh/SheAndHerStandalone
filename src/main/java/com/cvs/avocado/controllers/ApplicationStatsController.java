@@ -45,7 +45,9 @@ public class ApplicationStatsController {
 	@PostMapping("/adpl/serverstats/create.ws")
 	@PreAuthorize("hasAuthority('WRITE')")
 	public void insertServerStats(@RequestBody List<ServerStats> serverStatsList) {
+		String managementIP = this.httpServlet.getRemoteAddress();
 		for(ServerStats serverStats : serverStatsList) {
+			serverStats.setManagementIP(managementIP);
 			boolean result = this.appStatsRepository.insertServerStats(serverStats);
 			if(result) {
 				log.info("Following server stats inserted successfully in db: " + serverStats.toString());
@@ -57,7 +59,7 @@ public class ApplicationStatsController {
 
 	@PostMapping("/adpl/clientstats/create.ws")
 	@PreAuthorize("hasAuthority('WRITE')")
-	public void insertCliestStats(@RequestBody List<ClientStats> clientStatsList) {
+	public void insertClientStats(@RequestBody List<ClientStats> clientStatsList) {
 		for(ClientStats clientStats : clientStatsList) {
 			boolean result = this.appStatsRepository.insertClientStats(clientStats);
 			if(result) {
@@ -66,6 +68,10 @@ public class ApplicationStatsController {
 				log.error("Failed to insert following client stats in db: " + clientStats.toString());
 			}
 		}
+	}
+	
+	public void deleteAppInfo(@RequestBody AppInfo appInfo) {
+		boolean result = this.appStatsRepository.deleteAppInfo(appInfo);
 	}
 
 }
