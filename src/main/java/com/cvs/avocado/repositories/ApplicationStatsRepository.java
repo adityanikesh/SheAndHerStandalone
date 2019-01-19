@@ -9,6 +9,7 @@ import org.apache.logging.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.core.SqlOutParameter;
+import org.springframework.jdbc.core.SqlParameter;
 import org.springframework.jdbc.core.namedparam.MapSqlParameterSource;
 import org.springframework.jdbc.core.namedparam.SqlParameterSource;
 import org.springframework.jdbc.core.simple.SimpleJdbcCall;
@@ -29,7 +30,9 @@ public class ApplicationStatsRepository {
 	private static final String INSERT_APP_INFO_SP = "insert_app_info_SP";
 	private static final String INSERT_SERVER_STATS_SP = "insert_server_stats_SP";
 	private static final String INSERT_CLIENT_STATS_SP = "insert_client_stats_SP";
-	
+	private static final String DELETE_APP_INFO_SP = "delete_app_info_stats_SP";
+	private static final String UPDATE_STATS_OF_STOPPED_APPS = "update_stats_of_stopped_apps_SP";
+
 	public boolean insertAppInfo(AppInfo appInfo) {
 		Map<String, Object> out = null;
 		try {
@@ -54,7 +57,7 @@ public class ApplicationStatsRepository {
 			out = jdbcCall.execute(in);
 
 		} catch(Exception ex) {
-			log.error("Error occured while inserting client stats. Reason: " + ex.getMessage());
+			log.error("Error occured while inserting server stats. Reason: " + ex.getMessage());
 		}
 		return (Boolean)out.get("result");
 	}
@@ -70,6 +73,32 @@ public class ApplicationStatsRepository {
 
 		} catch(Exception ex) {
 			log.error("Error occured while inserting client stats. Reason: " + ex.getMessage());
+		}
+		return (Boolean)out.get("result");
+	}
+	
+	public void updateStatsOfStoppedApplications() {
+		try {
+			SimpleJdbcCall jdbcCall = new SimpleJdbcCall(jdbcTemplate)
+					.withProcedureName(UPDATE_STATS_OF_STOPPED_APPS);
+			jdbcCall.execute();
+		} catch(Exception ex) {
+			log.error("Error occured while updating stats of stopped applications. Reason: " + ex.getMessage());
+		}
+	}
+
+	public boolean deleteAppInfo (AppInfo appInfo) {
+		Map<String, Object> out = null;
+		try {
+			SimpleJdbcCall jdbcCall = new SimpleJdbcCall(jdbcTemplate)
+					.withProcedureName(DELETE_APP_INFO_SP)
+					.declareParameters(new SqlParameter("result", java.sql.Types.BIT));
+			SqlParameterSource in = new MapSqlParameterSource()
+					.addValue("uuid_in", appInfo.getUuid())
+					.addValue("socket_uuid_in", appInfo.getSocketUUID());
+			out = jdbcCall.execute(in);
+		} catch(Exception ex) {
+			log.error("Error occured while deleting following app info: "+appInfo.getUuid());
 		}
 		return (Boolean)out.get("result");
 	}
@@ -96,10 +125,11 @@ public class ApplicationStatsRepository {
 		serverStatsMap.put("cust_id_in", serverStats.getCustId());
 		serverStatsMap.put("dept_id_in", serverStats.getDeptId());
 		serverStatsMap.put("adpl_app_id_in", serverStats.getAdplAppId());
-		serverStatsMap.put("pid_in", serverStats.getPid());
-		serverStatsMap.put("server_port_in", serverStats.getServerPort());
 		serverStatsMap.put("server_ip_in", serverStats.getServerIP());
+		serverStatsMap.put("server_port_in", serverStats.getServerPort());
 		serverStatsMap.put("protocol_in", serverStats.getProtocol());
+		serverStatsMap.put("pid_in", serverStats.getPid());
+		serverStatsMap.put("management_ip_in", serverStats.getManagementIP());
 		serverStatsMap.put("uuid_in", serverStats.getUUID());
 		serverStatsMap.put("socket_uuid_in", serverStats.getSocketUUID());
 		serverStatsMap.put("client_count_in", serverStats.getClientCount());
